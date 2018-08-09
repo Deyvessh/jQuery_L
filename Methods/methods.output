@@ -1,0 +1,125 @@
+// ---Methods--
+
+// ------------------------
+// -----text()-----
+// ---------------------------
+
+// showing text in h1
+
+$("h1").text();
+"jQuery"
+
+// showing text in ul
+
+$("ul").text();
+
+    Yeah
+    This
+    is
+    Cool
+    
+
+// showing text in li
+
+$("li").text();
+"YeahThisisCool"
+
+// altering h1 text
+
+$("h1").text("jQuery New");
+
+// showing h1 text
+
+$("h1").text();
+"jQuery New"
+
+// altering li text
+
+$("li").text("mango, orange, banana, kiwi");
+
+// showing li text
+
+$("li").text();
+
+"mango, orange, banana, kiwimango, orange, banana, kiwimango, orange, banana, kiwimango, orange, banana, kiwi"
+
+// showing ul text
+
+$("ul").text();
+
+    mango, orange, banana, kiwi
+    mango, orange, banana, kiwi
+    mango, orange, banana, kiwi
+    mango, orange, banana, kiwi
+    
+
+// ---------------------------
+// -------html()------
+// ------------------------------
+
+
+// showing html of h1
+
+$("h1").html();
+"jQuery"
+
+// showing html of ul
+
+$("ul").html();
+    
+    <li>Yeah</li>
+    <li>This</li>
+    <li>is</li>
+    <li>Cool</li>
+        
+// altering ul lists
+    
+$("ul").html("<li>one</li><li>two</li><li>three</li><li>four</li>");
+
+// showing ul html
+
+$("ul").html();
+"<li>one</li><li>two</li><li>three</li><li>four</li>"
+
+
+// ----------------------
+// -----------attr()------------
+// ----------------------------
+
+
+// showing href 
+
+$("a").attr("href");
+"https://google.co.in"
+
+// altering href 
+$("a").attr("href", "http://gmail.com");
+
+// then showing href
+
+$("a").attr("href");
+"http://gmail.com"
+
+
+// -------------------------
+// ------------val()---------
+// -------------------------
+
+// showing input value
+
+$("input").val();
+""  --- empty
+
+// input something in html doc
+
+$("input").val();
+"deyvessh"
+
+// altering value of input
+
+$("input").val("devesh");
+
+// showing input value
+
+$("input").val();
+"devesh"

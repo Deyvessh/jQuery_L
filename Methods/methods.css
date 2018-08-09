@@ -1,0 +1,16 @@
+
+
+.correct {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.wrong {
+    color: lightcoral;
+    text-decoration: line-through;
+}
+
+.done {
+    color: lightskyblue;
+    background: lightcyan;
+}
