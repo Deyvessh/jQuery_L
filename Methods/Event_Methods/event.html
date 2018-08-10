@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="../../lib/jquery-3.3.1.min.js"></script>
+
+    <style>
+        .divBox {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            float: left;
+            background: lightblue;
+            border-radius: 4px;
+            box-shadow: 2px 2px 5px lightgray;
+            display: none;
+        }
+
+        #div1 {
+            margin-top: 20px;
+            width: 80px;
+            height: 30px;
+            background: lightcoral;
+            color: whitesmoke; 
+            text-align: center;
+            box-shadow: 2px 3px 4px lightgray;
+            border-radius: 4px;
+        }
+
+        #div1:hover {
+            transform: translate(5px, 4px);
+            box-shadow: 4px 6px 8px grey;
+            transition-duration: 200ms;
+            
+        }
+
+        #div1:active {
+            transform: translate(-3px, -2px);
+            box-shadow: 0px 0px 2px lightgray;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>jQuery Events</h1>
+    <br>
+
+    <input type="text">
+    <button id="btn1">Button One</button>
+    <button>Button Two</button>
+    <button>Button Three</button> -->
+
+    <div class="divBox"></div>
+    <div class="divBox"></div>
+    <div class="divBox"></div>
+
+    <div id="div1">Click</div>
+
+    <script src="event.js"></script>
+</body>
+</html>

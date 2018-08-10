@@ -1,0 +1,36 @@
+
+// -------------------------
+// ----------click()-------
+// ----------------------------
+
+
+$("h1").click(function() {
+    alert("Clicked on Header 1");
+});
+
+// $("button").click(function() {
+//     alert("Some Button is Clicked");
+// });
+
+$("button").click(function() {
+    var btnName = $(this).text();
+    alert("you clicked " + btnName);
+});
+
+$("#btn1").click(function() {
+    $(this).css("background", "grey");
+});
+
+
+// -------------------------
+// ----------keypress()-------
+// ----------------------------
+
+
+// begin with keypress
+
+$("input[type='text']").keypress(function() {
+console.log("key pressed");
+});
+
+125 times ---- key pressed 
